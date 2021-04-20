@@ -9,16 +9,22 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
 
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
-                color: #636b6f;
+                /* background-color: rgb(255, 255, 255); */
+                color: #ffffff;
                 font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
+                background-size: cover;
+                background-image:url({{asset('bcc.jpg')}});
+                
+                
             }
 
             .full-height {
@@ -78,11 +84,14 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    UTS FRAMEWORK PROGRAMMING
+                <div class="title m-b-md fw-bold">
+                    FRAMEWORK PROGRAMMING
+                </div>
+                <div class="title m-b-md fw-bold">
+                    UTS
                 </div>
             <div>
-                <a href="{{ route('book.index')}}" class="btn primary">BOOK</a>
+            <a href="{{ route('book.index')}}" class="btn btn-danger fw-bold">BOOK</a>
             </div>
             </div>
         </div>
