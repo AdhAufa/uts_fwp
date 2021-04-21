@@ -1,3 +1,13 @@
+### UTS FRAMEWORK PROGRAMMING
+Nama  : Aufa Alaina Adhar
+NIM   : 16090154
+Kelas : 6A
+## [APLIKASI PEREKAMAN TOKO BUKU](https://uts-fwp.herokuapp.com/)
+## [DIAGRAM](https://drive.google.com/file/d/1QbvG8MfxIBIlUO6bWRF7RwZYNlvidO33/view?usp=sharing)
+
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
