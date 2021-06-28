@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>BOOKS</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -23,7 +23,7 @@
                 margin: 0;
                 background-size: cover;
                 background-image:url({{asset('bcc.jpg')}});
-                
+            
                 
             }
 
@@ -75,9 +75,9 @@
             @if (Route::has('login'))
                 <div class="top-right links">
                     @auth
-                        <a href="{{ url('/home') }}">Home</a>
+                        <!-- <a href="{{ url('/home') }}">Laravel</a> -->
                     @else
-                        <a href="{{ route('login') }}">Login</a>
+                        <!-- <a href="{{ route('login') }}">Login</a> -->
                         <a href="{{ route('register') }}">Register</a>
                     @endauth
                 </div>
@@ -88,10 +88,10 @@
                     FRAMEWORK PROGRAMMING
                 </div>
                 <div class="title m-b-md fw-bold">
-                    UTS
+                    SISTEM PEREKAMAN BUKU
                 </div>
             <div>
-            <a href="{{ route('book.index')}}" class="btn btn-danger fw-bold">BOOK</a>
+            <a href="{{ route('book.index')}}" class="btn btn-danger fw-bold">Login</a>
             </div>
             </div>
         </div>

@@ -20,3 +20,9 @@ Route::post('/book/store', 'BookController@store')->name('book.store');
 Route::delete('/book/{id}', 'BookController@destroy')->name('book.destroy');
 Route::get('/book/{id}/edit', 'BookController@edit')->name('book.edit');
 Route::put('/book/{id}', 'BookController@update')->name('book.update');
+
+Route::get('/book-pdf', 'BookController@printBookPdf')->name('book.print-pdf');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
