@@ -19,7 +19,7 @@
     <div id="app">
         <nav class="navbar navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand fw-bold">16090154_AufaAlainaAdhar</a>
+                <a class="navbar-brand fw-bold">6A_16090154</a>
                 <a class="navbar-brand fw-bold">APLIKASI PEREKAMAN BUKU</a>
                 <div class="d-flex">
                 @auth
