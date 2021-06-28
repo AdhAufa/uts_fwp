@@ -19,7 +19,8 @@
     <div id="app">
         <nav class="navbar navbar-light bg-light">
             <div class="container">
-                <a class="navbar-brand fw-bold">Sistem Perekaman Buku</a>
+                <a class="navbar-brand fw-bold">16090154_AufaAlainaAdhar</a>
+                <a class="navbar-brand fw-bold">APLIKASI PEREKAMAN BUKU</a>
                 <div class="d-flex">
                 @auth
                 <div class="dropdown">
